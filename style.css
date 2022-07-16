@@ -1,0 +1,131 @@
+html, body, #home, #corpo2, #portfolio, #form{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(./img/fundo.jpg);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+     background: rgba(1, 1, 1, 0.6);
+     
+ }
+nav.navbar-light .navbar-nav .nav-link {
+    color: floralwhite;
+}
+nav.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+ .logo{
+    margin-top: 20px;
+    color:floralwhite;
+    text-transform: uppercase;
+ }
+ .divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+ #itm1{
+    color: aliceblue;
+ }
+ 
+ .frente {
+    height: 100%;
+    color: floralwhite;
+    text-align: center;
+ }
+
+ #titulo{
+    font-size: 90px;
+ }
+ .btn-custom {
+    color: white;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+ }
+ .btn-verde {
+    background: #519717;
+}
+
+.btn-verde:hover {
+    background: #71db1a;
+    color: white;
+}
+.btn-claro{
+    transition: transform 0.5s;
+    background: #519717;
+}
+.btn-claro:hover{
+    background: #71db1a;
+    color: white;
+    transform: scale(1.05);
+}
+.btn-branco{
+    background:white;
+    color: black;
+}
+ .btn-branco:hover {
+     background: rgba(159, 212, 145, 0.986);
+     color: black;
+ }
+ 
+#habilidades{
+    border: 10px solid #1e2c13;
+   background-color: #2a3f1a;
+    color: white;
+    
+    text-transform:uppercase ;
+}
+#png1{
+    width: 150px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+#png2{
+    width: 100px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+#portfolio{
+    margin: 4em;
+    align-items: center;
+    margin-left: 10em;
+    
+}
+figure {
+    text-decoration: none;
+    align-self: center;
+    background-color: #2a3f1a;
+    color: black;
+    float: right;
+    width: 30%;
+    text-align: center;
+    text-indent: 0;
+    border: 2px #1e2c13 solid;
+    margin: 1.5em;
+    padding: 1.5em;
+    margin-top: 200px;
+    transition: all 0.5s ease-in-out;
+  }
+  figure:hover{
+    transform: scale(1.09);
+  }
+ 
+  img.scaled {
+    width: 100%;
+  }
+  
+  #form{
+    margin: 10em;
+    align-items: center;
+    margin-left: 10em;
+    color: floralwhite;
+  }
+
+ 
